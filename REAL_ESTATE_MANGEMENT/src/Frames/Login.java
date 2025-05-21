@@ -659,7 +659,7 @@ public class Login extends javax.swing.JFrame {
         if (count > 0) {
             // Email exists
             jLabel4.setText("Email exits");
-            EmailSender obj=new EmailSender("kartik.21ise@cambridge.edu.in","BananaBerry@8247");
+            EmailSender obj=new EmailSender("#####.######@#########.edu.in","##########");
             Random rand=new Random();
             num=rand.nextInt(1000,8000);
             String otp=String.valueOf(num);
