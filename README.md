@@ -50,6 +50,15 @@ The Real Estate Management System enables:
 
 * Five major entities: `UserDetails`, `PropertyDetails`, `RealtorAgentDetails`, `BuilderDetails`, `TransactionDetails`
 
+
+<p align="center">
+  <img width="500" alt="Screenshot 2025-05-29 at 2 33 16 AM" src="https://github.com/user-attachments/assets/34f18347-cbd0-4384-a375-23497c769646" />
+  <br>
+  <em>ER Diagram</em>
+</p>
+
+
+
 ### Relational Schema (Table Relations)
 
 ```sql
@@ -60,6 +69,12 @@ BuilderDetails(BuilderID, Name, ContactInfo, UserID → UserDetails)
 TransactionDetails(TransactionID, PropertyID → PropertyDetails, AgentID → RealtorAgentDetails, BuyerID, SellerID → UserDetails)
 ```
 
+
+<p align="center">
+  <img width="516" alt="Screenshot 2025-05-29 at 2 33 23 AM" src="https://github.com/user-attachments/assets/2722b3f9-d8c9-490b-ac7b-dae94559cc70" />
+  <br>
+  <em>Relational Schema</em>
+</p>
 ---
 
 ## 🧾 Entity Tables
@@ -188,13 +203,14 @@ String query = "SELECT * FROM transactiondetails WHERE BuyerID = ? OR SellerID =
 
 ## 🖼️ Screenshots
 
-| Feature           | Snapshot                                |
-| ----------------- | --------------------------------------- |
-| Login             | ![Login](assets/login.jpeg)              |
-| Dashboard         | ![Dashboard](assets/dashboard.png)      |
-| Transactions Page | ![Transactions](assets/transaction.png) |
-| User Creation     | ![User](assets/create_user.png)         |
+| Feature           | Image Filename        | Preview                                        |
+| ----------------- | --------------------- | ---------------------------------------------- |
+| Login Page        | `login.jpeg`          | ![Login](assets/login.jpeg)                    |
+| Dashboard Page    | `dashboard.jpeg`      | ![Dashboard](assets/dashboard.jpeg)            |
+| Create New User   | `createnewuser.jpeg`  | ![Create User](assets/createnewuser.jpeg)      |
+| Update Password   | `updatepassword.jpeg` | ![Update Password](assets/updatepassword.jpeg) |
+| Property Search   | `search.jpeg`         | ![Search Property](assets/search.jpeg)         |
+| Transactions Page | `transactions.jpeg`   | ![Transactions](assets/transactions.jpeg)      |
 
-> *Add these images to your GitHub repo's `/assets` folder for them to display.*
 
 
