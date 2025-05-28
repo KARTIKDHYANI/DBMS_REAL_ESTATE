@@ -190,7 +190,7 @@ String query = "SELECT * FROM transactiondetails WHERE BuyerID = ? OR SellerID =
 
 | Feature           | Snapshot                                |
 | ----------------- | --------------------------------------- |
-| Login             | ![Login](assets/login.png)              |
+| Login             | ![Login](assets/login.jpeg)              |
 | Dashboard         | ![Dashboard](assets/dashboard.png)      |
 | Transactions Page | ![Transactions](assets/transaction.png) |
 | User Creation     | ![User](assets/create_user.png)         |
